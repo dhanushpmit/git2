@@ -7,5 +7,15 @@
 </head>
 <body>
     <p>Add and commit</p>
+    <h2>Click the button to display a message:</h2>
+    <button onclick="displayMessage()">Click Me</button>
+    <p id="output"></p>
+
+    <script>
+        function displayMessage() {
+            document.getElementById("output").innerHTML = "Hello, this is a JavaScript function!";
+        }
+    </script>
+
 </body>
 </html>
